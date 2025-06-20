@@ -88,11 +88,10 @@ Vous pouvez saisir un texte dans l’interface : il sera envoyé automatiquement
 
 **Remarque importante :**  
 Les métriques globales du modèle (accuracy, f1-score,precision..) sont très élevées et démontrent une bonne performance sur l’ensemble des données.  
-Cependant, lors de tests manuels via l’UI, j’ai constaté que dans certains cas particuliers, un texte provenant du dataset et étiqueté comme *fake* peut être prédit comme *real*.  
+Cependant, lors de tests manuels via l’UI, j’ai constaté que dans certains cas particuliers j'obtiens de faux resultat 
 
 Cela peut être dû à des limites du modèle BERT ou à la complexité sémantique de certains exemples. Pour résoudre cela, je prévois d’explorer :
 
-- Des modèles plus performants (ex : RoBERTa, DeBERTa, LLaMA)
 - Une meilleure gestion du déséquilibre de classes
 - Des techniques d’augmentation de données ou d’ensemblage
 - Une piste d’amélioration envisagée est l’intégration d’un module de fact-checking, permettant de vérifier la véracité des faits évoqués dans les textes à l’aide de bases de connaissances externes ou d’API spécialisées. Je me demande s’il serait pertinent de l’ajouter à ce projet pour renforcer la robustesse du système.
