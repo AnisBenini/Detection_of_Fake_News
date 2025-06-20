@@ -1,5 +1,5 @@
 
-# 📰 Detection_of_Fake_News
+# 📰 TruthScope 𖣨🔎
 
 Ce projet vise à détecter automatiquement les **fake news** à partir de textes en utilisant un modèle BERT optimisé.  
 Il s'agit d'une solution complète comprenant un backend en Python (FastAPI) et une interface utilisateur simple (HTML/CSS/JS).
